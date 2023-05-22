@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Example Page</title>
+  <link rel="stylesheet" type="text/css" href="pastprojects_style.css" />
+</head>
+<body>
+  <input type="text" id="searchInput" placeholder="Search...">
+  <table id="dataTable">
+    <thead>
+      <tr>
+        <th data-sort="name">Name<span id="nameArrowIcon" class="arrow"></span></th>
+        <th data-sort="category">Category<span id="categoryArrowIcon" class="arrow"></span></th>
+        <th data-sort="top">TOP<span id="topArrowIcon" class="arrow"></span></th>
+        <th data-sort="notes">NOTES<span id="notesArrowIcon" class="arrow"></span></th>
+        <th>Link</th>
+      </tr>
+    </thead>
+    <tbody id="dataList"></tbody>
+  </table>
+  
+
+  <script src="pastprojects_script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+</body>
+</html>
